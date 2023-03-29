@@ -16,10 +16,10 @@ else:
   qtd_de_latas = lit / 18
   if lit % 18 > 0:
     qtd_de_latas += 1
-  p = int(qtd_de_latas) * 80
-  print(f"Serão necessárias {int(qtd_de_latas)} latas totalizando R$ {p}")
+  valor_total = int(qtd_de_latas) * 80
+  print(f"Serão necessárias {int(qtd_de_latas)} latas totalizando R$ {valor_total}")
 
 # As duas variáveis qtd_de_latas e valor_total devem guardar a resposta do problema
 # Troque os zeros pelos valores corretos.
 
-print(f"Serão necessárias {qtd_de_latas} latas totalizando R$ {valor_total}")
+
