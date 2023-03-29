@@ -10,7 +10,7 @@ if 0 < metros_quadrados <= 54:
   print("Serão necessárias 1 latas totalizando R$ 80")
 
 elif metros_quadrados == 0:
-  print("Se você não quer pintar, vá pastar.")
+  print("Serão necessárias 0 latas totalizando R$ 0")
   
 else: 
   qtd_de_latas = lit / 18
